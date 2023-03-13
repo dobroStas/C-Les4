@@ -16,8 +16,8 @@ int SumNums(int number)
         sum += i;
     return sum;
 }
-// int a = Promt();
-// Console.WriteLine(SumNums(a));
+int a = Promt();
+Console.WriteLine(SumNums(a));
 
 
 
@@ -67,15 +67,15 @@ int ProdNums(int number)
 // [1,0,1,1,0,1,0,0]
 
 
-int [] CreateArray(int size)
-{
-    int [] array = new int [size];
-    for(int i = 0; i < size; i++)
-    {
-        array[i] = new Random().Next(0, 2);
-    }
-    return array;
-}
+// int [] CreateArray(int size)
+// {
+//     int [] array = new int [size];
+//     for(int i = 0; i < size; i++)
+//     {
+//         array[i] = new Random().Next(0, 2);
+//     }
+//     return array;
+// }
 
- int [] res = CreateArray(Promt());
-Console.WriteLine($"[{String.Join("|", res)}]");
+//  int [] res = CreateArray(Promt());
+// Console.WriteLine($"[{String.Join("|", res)}]");
